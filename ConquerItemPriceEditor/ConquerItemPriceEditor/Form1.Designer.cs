@@ -66,28 +66,28 @@
             this.console.BackColor = System.Drawing.SystemColors.MenuText;
             this.console.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.console.ForeColor = System.Drawing.Color.LawnGreen;
-            this.console.Location = new System.Drawing.Point(289, 68);
+            this.console.Location = new System.Drawing.Point(299, 68);
             this.console.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.console.Name = "console";
             this.console.ReadOnly = true;
-            this.console.Size = new System.Drawing.Size(420, 123);
+            this.console.Size = new System.Drawing.Size(410, 123);
             this.console.TabIndex = 2;
             this.console.Text = "Waiting for action...";
             this.console.TextChanged += new System.EventHandler(this.console_TextChanged);
             // 
             // priceMoney
             // 
-            this.priceMoney.Location = new System.Drawing.Point(288, 38);
+            this.priceMoney.Location = new System.Drawing.Point(299, 38);
             this.priceMoney.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.priceMoney.Name = "priceMoney";
-            this.priceMoney.Size = new System.Drawing.Size(100, 21);
+            this.priceMoney.Size = new System.Drawing.Size(103, 21);
             this.priceMoney.TabIndex = 4;
             this.priceMoney.TextChanged += new System.EventHandler(this.priceMoney_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(286, 21);
+            this.label1.Location = new System.Drawing.Point(296, 21);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(72, 13);
@@ -157,11 +157,11 @@
             // previewImg
             // 
             this.previewImg.BackColor = System.Drawing.Color.Transparent;
-            this.previewImg.Image = global::ConquerItemPriceEditor.Properties.Resources.icono_forobeta;
+            this.previewImg.Image = global::ConquerItemPriceEditor.Properties.Resources.logooc;
             this.previewImg.Location = new System.Drawing.Point(202, 37);
             this.previewImg.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.previewImg.Name = "previewImg";
-            this.previewImg.Size = new System.Drawing.Size(75, 67);
+            this.previewImg.Size = new System.Drawing.Size(93, 67);
             this.previewImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.previewImg.TabIndex = 13;
             this.previewImg.TabStop = false;

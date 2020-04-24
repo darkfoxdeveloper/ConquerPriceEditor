@@ -103,6 +103,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="conquer.ico" />
+    <None Include="Resources\logooc.png" />
     <None Include="Resources\icono_forobeta.png" />
     <None Include="Resources\filter-icon.png" />
     <None Include="Resources\save.png" />
